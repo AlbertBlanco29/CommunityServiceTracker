@@ -1,0 +1,30 @@
+# Private configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Laravel dependencies and generated files
+backend/vendor/
+backend/storage/logs/
+backend/bootstrap/cache/*.php
+backend/public/build/
+
+# Flutter generated files
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Other dependencies and local files
+node_modules/
+.DS_Store
+.idea/
+*.log
+*.sqlite
+*.db
+
+# Local database exports
+*.sql
